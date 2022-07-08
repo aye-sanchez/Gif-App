@@ -1,0 +1,147 @@
+* {
+    font-family: verdana, sans-serif;
+    background-color: rgb(24,24,26 );
+  }
+  
+  body {
+    padding: 60px;
+    background-color: rgb(24,24,26);
+    background-image: linear-gradient(326deg, rgb(24,24,26 ) 0%, rgb(24,24,26) 74%);
+  }
+  
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 176, 217);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    color: rgb(246, 105, 98)
+    
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  .card-grid {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  
+  .card {
+    width: 20vw;
+        height: 20vw;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(58, 71, 80);
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(58, 71, 80);
+    display: flex;
+    flex-direction: column;
+    height: 0%;  
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;  
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border: thin solid #eeeeee;
+    flex-direction: column;
+    width: 15vw;
+    height: 15vw;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .card p {
+    background-color: white;
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    max-height: 150px;  
+  } 
+
+  .reset{color: rgb(246, 105, 98);
+    background-image: linear-gradient(#9cb4cc, #9cb4cc);
+    background-repeat: no-repeat;
+    width: 15em;
+    border: 6px solid transparent;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "Open Sans","Source Sans Pro",Helvetica,sans-serif;
+    font-size: 1em;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1em;
+  }
+  .reset:hover{
+  cursor:pointer;
+  background-color: #748da6;
+  }
+
+  .delete{color: rgb(238, 238, 238);
+    background-image: linear-gradient(#3a4750, #3a4750);
+    background-repeat: no-repeat;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "Open Sans","Source Sans Pro",Helvetica,sans-serif;
+    font-size: 1em;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1em;
+  }
+  .delete:hover{
+  cursor:pointer;
+  background-color: #f6c90e;
+  }
+
+  /* Style buttons */
+.btn {
+  background-color: rgb(58, 71, 80);
+  border: none;
+  color: rgb(238, 238, 238);
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+/* Darker background on arrow*/
+.btn:hover {
+  background-color: rgb(58, 71, 80); 
+}
